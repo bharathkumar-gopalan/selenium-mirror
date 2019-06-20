@@ -1,0 +1,19 @@
+{
+    "name": "selenium-mirror",
+    "version": "0.0.0.1",
+    "description": "I do what you do !",
+    "permissions": [
+    "storage",
+    "activeTab",
+    "webNavigation",
+    "tabs",
+    "http://*/",
+    "https://*/"
+],
+    "background" : {
+        "scripts" : ["background.js"],
+        "persistent" : true
+    },
+    "browser_action": {},
+    "manifest_version": 2
+}
