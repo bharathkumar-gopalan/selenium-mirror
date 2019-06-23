@@ -9,7 +9,7 @@ This project consists of two parts
 2. A chrome plugin that records the user action and sends the request to the RET service 
 
 # How to use
-<Coming soon >
+Coming soon...
 
 
 
