@@ -9,7 +9,21 @@ This project consists of two parts
 2. A chrome plugin that records the user action and sends the request to the REST service 
 
 # How to use
-Coming soon...
+## Building and starting the server component 
+This requires JDK 1.8 and maven 3 to be installed in the local machine
+1. Go to the server root directory and simply type ```mvn clean install```
+2. This will build the jar under ```mirror-service/target/``` directory 
+3. Start the service by simply typing ```java -jar mirror-service.jar```. This should start the mirror service and it should be listening to ```http://localhost:8080
+
+
+##  Starting selenium grid in standalone mode 
+1. Download selenium server and chrome driver to a given directory and start the service . The selenium server should be listening to http://localhost:4444/wd/hub
+
+## chrome plugin 
+To be continued ....
+
+
+
 
 
 
