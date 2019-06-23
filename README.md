@@ -6,7 +6,7 @@ A while ago a friend of mine asked if there is a way to replay what is is doing 
 
 This project consists of two parts 
 1. A spring boot based Restful service that provides endpoints that drive a browser via selenium grid 
-2. A chrome plugin that records the user action and sends the request to the RET service 
+2. A chrome plugin that records the user action and sends the request to the REST service 
 
 # How to use
 Coming soon...
