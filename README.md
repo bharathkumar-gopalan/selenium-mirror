@@ -1,4 +1,4 @@
-# selenium-mirror(Documenation - Work in progress, Please bear with me ) 
+# selenium-mirror(Documenation - Work in progress, Please bear with me and has a few issues :) . I am working on it  ) 
 Selenium mirror is a fun proof of concept that replays in real time what you do on a browser using selenium! This project is composed of two parts a server and a chrome plugin . Documentation and bug fixes on the way !
 
 # Introduction 
