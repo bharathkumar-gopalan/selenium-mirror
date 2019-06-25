@@ -1,4 +1,4 @@
-# selenium-mirror
+# selenium-mirror(Documenation - Work in progress, Please bear with me ) 
 Selenium mirror is a fun proof of concept that replays in real time what you do on a browser using selenium! This project is composed of two parts a server and a chrome plugin . Documentation and bug fixes on the way !
 
 # Introduction 
@@ -20,7 +20,12 @@ This requires JDK 1.8 and maven 3 to be installed in the local machine
 1. Download selenium server and chrome driver to a given directory and start the service . The selenium server should be listening to http://localhost:4444/wd/hub
 
 ## chrome plugin 
-To be continued ....
+The chrome plugin is located under the [chrome-plugin](./chrome-plugin) folder. To install it use the following steps 
+1. go to chrome://extensions and enable developer mode 
+2. Click on the load unpacked button and select the chrome-plugin folder and click select to install the same 
+3. Once installed , you should see the selenium mirror icon on the browser tab
+
+
 
 
 
